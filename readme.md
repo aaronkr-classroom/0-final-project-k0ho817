@@ -137,3 +137,7 @@ This sample project introduces a `Talks` and a `Trains` MVC structure.<br>
 |___package.json              # <NEW> npm init을 통해 생성된 파일
 |___package-lock.json
 ```
+
+모델 추가   
+컨트롤러 추가   
+courses ㅡ

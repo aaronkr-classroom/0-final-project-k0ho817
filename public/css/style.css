@@ -43,7 +43,7 @@ span.ut-red {
 }
 
 #index {
-  background: url(https://cdn.pixabay.com/photo/2019/10/04/12/05/train-4525444_960_720.jpg)
+  background: url(https://wallpapercave.com/wp/ZdVCY6y.jpg)
     no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -58,7 +58,7 @@ span.ut-red {
 }
 
 header {
-  background-color: white;
+  background-color: black;
   border-bottom: 1px solid lightgray;
 }
 
@@ -84,6 +84,7 @@ header {
 
 .site-title {
   display: inline;
+  color: white;
   font-size: 1.5rem;
   line-height: 1;
   margin: 0 10px 0 0;
@@ -101,7 +102,7 @@ nav .menu-item,
   float: left;
   line-height: 1;
   cursor: pointer; /* Aaron */
-  color: #ab3135;
+  color: white;
 }
 
 .menu-item:focus,
@@ -282,4 +283,18 @@ td {
 
 .img-404 img {
   max-height: 50vh;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-signin .logo {
+  margin: auto;
+  float: none;
 }

@@ -1,4 +1,3 @@
-// homeController.js
 "use strict";
 
 /**
@@ -22,6 +21,12 @@ module.exports = {
     res.render("_pages/transportation", {
       page: "transportation",
       title: "Transportation",
+    });
+  },
+  showDisscutions: (req, res) => {
+    res.render("_pages/disscutions", {
+      page: "parts",
+      title: "Parts",
     });
   },
 };
